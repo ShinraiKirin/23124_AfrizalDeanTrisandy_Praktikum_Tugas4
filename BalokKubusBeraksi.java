@@ -1,15 +1,14 @@
 public class BalokKubusBeraksi {
     public static void main(String[] args) {
-        Kubus k = new Kubus();
-        Balok b = new Balok(); 
+        Kubus u = new Kubus();
 
-        k.SetData(5);
-        b.SetData(3,4,5);
+        u.SetData(5);
+        u.SetData(3,4,5);
 
-        System.out.println("Volume Kubus = " + k.volume());
-        System.out.println("Luas Permukaan Kubus = " + k.luasPermukaan());
+        System.out.println("Volume Kubus = " + u.volume());
+        System.out.println("Luas Permukaan Kubus = " + u.luasPermukaan());
 
-        System.out.println("Volume Balok = " + b.volume());
-        System.out.println("Luas Permukaan Balok = " + b.luasPermukaan());
+        System.out.println("Volume Balok = " + u.volume());
+        System.out.println("Luas Permukaan Balok = " + u.luasPermukaan());
     }
 }
